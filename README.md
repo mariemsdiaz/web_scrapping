@@ -3,10 +3,10 @@
 ## Background 
  Our goal is to develop skills in collecting, organizing, and analyzing data from different sources using web scrapping practices. We will use automated browsing tools and HTML parsing techniques to scrape data, and then analyze it to extract meaningful insights. This project will enhance our ability to communicate your findings visually.
 
-##Part 1: Scrape Titles and Preview Text from Mars News
+### Part 1: Scrape Titles and Preview Text from Mars News
 Using the provided starter code, we initiated the module by creating a BeautifulSoup object to extract text elements from the Mars Weather website. We used the inspector tool to identify key HTML elements on the webpage that we needed to scrape. Our focus was on the div elements containing the "title" and "preview" information. By targeting these elements, we successfully extracted and stored the relevant data in a structured dictionary format. This approach ensured that the data was organized and easily accessible for further analysis.
 
-##Part 2: Scrape and Analyze Mars Weather Data
+### Part 2: Scrape and Analyze Mars Weather Data
 Our analysis commenced by accessing the Mars Temperature Data Site, where we used BeautifulSoup to identify and scrape the relevant elements from the page. The goal was to extract the data columns presented on the website and transform them into a Pandas DataFrame for efficient manipulation and analysis.
 
 The columns extracted included:
