@@ -12,12 +12,19 @@ Our analysis commenced by accessing the Mars Temperature Data Site, where we use
 The columns extracted included:
 
 id: Identification number for each Curiosity rover transmission
+
 terrestrial_date: Date on Earth
+
 sol: Number of elapsed Martian days (sols) since Curiosity's landing
+
 ls: Solar longitude
+
 month: Martian month
+
 min_temp: Minimum temperature in Celsius for each Martian day (sol)
+
 pressure: Atmospheric pressure at Curiosity's location
+
 We verified and converted the data types for each column as needed, ensuring they were correctly formatted as datetime, integer, or float types.
 
 ## Conclusion
